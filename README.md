@@ -39,7 +39,7 @@ Exposed outside the cluster using NodePort Service on port 30100.
 Access
 
 WebApp available at → http://<node-ip>:30100
-
+```yaml 
 📂 Repository Structure
 .
 ├── mongo-config.yaml     # ConfigMap with DB URL
