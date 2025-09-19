@@ -15,7 +15,8 @@ The Web Application (anabhishekreddy/abhi:v1.0) connects to MongoDB using creden
 
 🏗️ Architecture
 
-![alt text](image-1.png)
+![Architecture](images/image.png)
+
 
 MongoDB Deployment & Service
 
