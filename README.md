@@ -39,7 +39,7 @@ Exposed outside the cluster using NodePort Service on port 30100.
 Access
 
 WebApp available at → http://<node-ip>:30100
-
+```yaml 
 📂 Repository Structure
 .
 ├── mongo-config.yaml     # ConfigMap with DB URL
@@ -47,7 +47,6 @@ WebApp available at → http://<node-ip>:30100
 ├── mongo.yaml            # MongoDB Deployment + Service
 ├── webapp.yaml           # WebApp Deployment + Service
 └── README.md             # Project Documentation
-
 
 Step 1: Apply Kubernetes Configs
 kubectl apply -f mongo-config.yaml
@@ -59,3 +58,12 @@ Step 2: Verify Deployments & Services
 kubectl get pods
 kubectl get deployments
 kubectl get svc
+
+```
+
+Output
+
+![Architecture](images/output1.png)
+
+![Architecture](images/output2.png)
+
