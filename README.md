@@ -58,3 +58,12 @@ Step 2: Verify Deployments & Services
 kubectl get pods
 kubectl get deployments
 kubectl get svc
+
+```
+
+Output
+
+![Architecture](images/output1.png)
+
+![Architecture](images/output2.png)
+
