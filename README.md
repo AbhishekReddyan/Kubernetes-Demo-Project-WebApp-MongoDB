@@ -48,7 +48,6 @@ WebApp available at → http://<node-ip>:30100
 ├── webapp.yaml           # WebApp Deployment + Service
 └── README.md             # Project Documentation
 
-```yaml
 Step 1: Apply Kubernetes Configs
 kubectl apply -f mongo-config.yaml
 kubectl apply -f mongo-secrets.yaml
